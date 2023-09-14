@@ -8,7 +8,7 @@
 2. Команда отримання контакту по id `node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6` або аналогічна команда `node index.js -a get -i 05olLMgyVQdWRwgKfg5J6`
    ![command action get](./assets/action-get.png)
 
-3. Команда додавання контакту `node index.js --action="add" --name User --email user@gmail.com --phone "097 777 77 77"` або аналогічна команда `node index.js --action="add" --name User --email user@gmail.com --phone "097 777 77 77"`
+3. Команда додавання контакту `node index.js --action="add" --name User --email user@gmail.com --phone "097 777 77 77"` або аналогічна команда `node index.js -a add -n User -e user@gmail.com -p "097 777 77 77"`
    ![command action add](./assets/action-add.png)
 
 4. Команда видалення контакту `node index.js --action="remove" --id 7c7d5277-7ade-4d08-a79a-b3e84ade403d` або аналогічна команда `node index.js -a remove -i 7c7d5277-7ade-4d08-a79a-b3e84ade403d`
